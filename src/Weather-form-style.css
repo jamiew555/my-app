@@ -9,3 +9,15 @@
   background: #f4e3e3;
   opacity: 0.5;
 }
+
+.btn-primary {
+  background: #f76b8a;
+  color: #ffffff;
+  border: #f76b8a;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.btn-primary:hover {
+  background: #2f3542;
+}
