@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import Weatherform from "./Weather-form";
 import Overview from "./Overview";
 import Footer from "./Footer";
 import "./App.css";
@@ -8,10 +7,11 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="weather-app">
-        <Weatherform />
-        <Overview />
-        <Footer />
+      <div className="container">
+        <div className="weather-app">
+          <Overview defaultCity="London" />
+          <Footer />
+        </div>
       </div>
     </div>
   );

@@ -7,13 +7,20 @@ export default function Footer() {
     <div className="footer">
       <small>
         <a
-          href="https://github.com/jamiew555/Vanilla-Weather-App"
+          href="https://github.com/jamiew555/my-app"
           target="_blank"
           rel="noreferrer"
         >
           Open-source code
         </a>
-        , by Fung-ping Wong
+        , by Fung-ping Wong, and it is hosted on{" "}
+        <a
+          href="https://serene-brown-2144ec.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          netlify
+        </a>
       </small>
     </div>
   );
