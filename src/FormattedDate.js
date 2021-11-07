@@ -23,7 +23,7 @@ export default function FormmatedDate(props) {
 
   return (
     <div>
-      `${day} ${hours}:${minutes}`
+      {day} {hours}:{minutes}
     </div>
   );
 }
