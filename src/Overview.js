@@ -8,7 +8,7 @@ export default function Overview(props) {
   const [city, setCity] = useState(props.defaultCity);
   const [weatherData, setWeatherData] = useState({ ready: false });
 
-  function handleresponse(response) {
+  function handleResponse(response) {
     setWeatherData({
       ready: true,
       temperature: Math.round(response.data.main.temp),
@@ -24,7 +24,7 @@ export default function Overview(props) {
   function search() {
     const apiKey = "03eae50e408a5980bf3d11d9419f315f";
     let apiURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-    axios.get(apiURL).then(handleresponse);
+    axios.get(apiURL).then(handleResponse);
   }
 
   function handleSubmit(event) {
