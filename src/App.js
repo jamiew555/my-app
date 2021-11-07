@@ -1,4 +1,3 @@
-import ReactDOM from "react-dom";
 import React from "react";
 import Overview from "./Overview";
 import Footer from "./Footer";
@@ -14,10 +13,3 @@ export default function App() {
     </div>
   );
 }
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <App />,
-
-  rootElement
-);
