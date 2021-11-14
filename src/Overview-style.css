@@ -60,12 +60,12 @@
   font-weight: bold;
 }
 
-.Overview a {
+.overview a {
   color: #d22116;
   text-decoration: none;
 }
 
-.Overview a:hover {
+.overview a:hover {
   color: #2f3542;
   text-decoration: none;
 }
@@ -98,6 +98,13 @@
   margin-top: 10px;
 }
 
-.overview hr {
+.WeatherInfo hr {
   border: 1.5px solid #d22116;
+  opacity: 1;
+  margin-top: 10px;
+}
+
+.WeatherInfo #date {
+  bottom: 0px;
+  font-size: 28px;
 }
